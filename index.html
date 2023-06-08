@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>test</title>
+	<meta charset="UTF-8" />
+</head>
+
+<body>
+	<form action="" method="GET">
+		<fieldset>
+			<legend>Information</legend>
+			<label for="input-username">Username:</label>
+			<input type="text" id="input-username" name="input-username" placeholder="username">
+			<input type="text" id="input-email" name="input-email">
+			<input type="text" id="input-address" name="input-address">
+			<input type="checkbox" id="input-admin" name="input-admin">
+			<input type="file" id="input-image" multiple="multiple">
+			<input type="submit" id="submit-data">
+		</fieldset>
+	</form>
+	<button id="empty-table">Empty table</button>
+	<table>
+		<thead>
+			<tr><th>Username</th><th>Email</th><th>Address</th><th>Admin</th><th>Image</th></tr>
+		</thead>
+		<tbody id="table-body">
+			<tr><td>Uolevi32</td><td>example@email.com</td><td>demoland 123</td><td>-</td></tr>
+			<tr><td>Pekka08</td><td>example@email.com</td><td>demoland 123</td><td>-</td></tr>
+			<tr><td>Erno56</td><td>example@email.com</td><td>demoland 123</td><td>X</td></tr>
+		</tbody>
+	</table>
+	
+	<script src="src/index.js">
+	</script>
+</body>
+
+</html>
